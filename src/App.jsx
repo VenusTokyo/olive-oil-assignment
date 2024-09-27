@@ -14,7 +14,7 @@ function App() {
 
         <ImageSlider />
         <div className="w-full lg:w-1/2">
-          <div className="container flex flex-col items-center gap-4 text-[#3c422e] mt-8">
+          <div className=" flex flex-col items-center gap-4 text-[#3c422e] mt-8 mx-auto">
             <div className="mb-2">
               <h1 className='mx-auto main-heading'>"The Duo"</h1>
               <h2 className='mx-auto main-heading'><u>Drizzle and Sizzle set</u></h2>
