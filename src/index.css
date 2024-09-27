@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #f6e6d9;
+}
+.main-heading{
+font-family: 'EB Garamond';
+font-size: 50px;
+line-height: 0.9;
+letter-spacing: -1.44px;
+text-align: center;
+}
