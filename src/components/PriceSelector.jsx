@@ -194,7 +194,7 @@ export default function PriceSelector() {
                 onClick={() => setActiveTab(tab)}
                 className={`px-4 py-2 text-base font-semibold w-full rounded-t-lg ${activeTab === tab
                   ? 'bg-[#2c2426] text-[#f7f3e9]'
-                  : 'bg-[#f7f3e9] text-[#2c2426]'
+                  : ' text-[#2c2426]'
                   } border-t border-l border-r border-[#3c3c3c]`}
               >
                 {tab}
