@@ -13,3 +13,14 @@ line-height: 0.9;
 letter-spacing: -1.44px;
 text-align: center;
 }
+.embla {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+  }
+  .embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+  }
+  

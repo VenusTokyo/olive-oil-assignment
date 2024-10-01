@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import ImageSlider from './components/ImageSlider'
 import PriceSelector from './components/PriceSelector'
+import NewSlider from './components/NewSlider'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,8 @@ function App() {
     <>
       <div className="flex flex-col lg:flex-row items-start font-mono">
 
-        <ImageSlider />
+        {/* <ImageSlider /> */}
+        <NewSlider/>
         <div className="w-full lg:w-1/2">
           <div className=" flex flex-col items-center gap-4 text-[#3c422e] mt-8 mx-auto">
             <div className="mb-2">
@@ -33,6 +35,7 @@ function App() {
           </div>
           <div className="flex flex-col items-center md:w-2/3 lg:w-full xl:w-3/4 mx-auto">
             <PriceSelector />
+            
           </div>
         </div>
       </div>
